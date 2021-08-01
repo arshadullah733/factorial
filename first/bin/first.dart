@@ -3,6 +3,7 @@ void main(List<String> arguments) {
     print('$i *2 = ${i * 2}');
   }
   print('*****************************');
+  print('================================');
 
   for (var i = 0; i < 20; i++) {
     if (i % 2 == 0) {
