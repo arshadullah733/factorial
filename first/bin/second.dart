@@ -1,3 +1,7 @@
 void main(List<String> args) {
-  print('ncie to meet u');
+  var S = 1;
+  for (var i = 1; i <= 5; i++) {
+    S = S * i;
+  }
+  print('Factorial of 5 is: $S');
 }
